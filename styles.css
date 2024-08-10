@@ -97,27 +97,22 @@ a {
     /* margin-top: -59px; */
     border-radius: 24px 0 0 0;
     height: 675px;
-    box-sizing: border-box;
-    overflow: visible;
 }
 
-.container {
+ /* .container {
     padding: 50px;
     max-width: 375px;
     min-width: 320px;
     margin: 0 auto;
-    overflow: visible;
-    position: relative;
-}
+}  */
 
 .section-container {
     background-color: #fbfbfb;
-    padding-top: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 40px; 
+    /* padding-left: 20px;
+    padding-right: 20px; */
     border-radius: 24px;
-    overflow: visible;
-    position: relative;
+    /* padding: 0 20px; */
 }
 
 .text-content {
