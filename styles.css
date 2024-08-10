@@ -1,28 +1,80 @@
 body {
+
     font-family: "Inter", sans-serif;
-    background-color: #0e1823;
-    margin: 0;
-    padding: 0;
+    color: #434455;
+    background-color: #0E1823;
+
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 a {
+    color: currentColor;
     text-decoration: none;
 }
 
+.main-button {
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+/* img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 24px;
+} */
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
  .about {
-    margin-top: -59px;
+    /* margin-top: -59px; */
     border-radius: 24px 0 0 0;
     height: 675px;
-    padding: 50px;
     box-sizing: border-box;
     overflow: visible;
 }
 
 .container {
+    padding: 50px;
     max-width: 375px;
     min-width: 320px;
     margin: 0 auto;
@@ -41,8 +93,7 @@ a {
 }
 
 .text-content {
-    display: flex;
-    flex-direction: column;
+
 }
 
 .about-title {
@@ -56,14 +107,13 @@ a {
 }
 
 .section-text {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    margin-left: 189px; 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 0;
+    align-items: flex-end; */
+    /* margin-left: 189px;  */
+    /* display: flex; */
+    /* align-items: flex-start; */
+    /* margin-left: 0; */
 }
 
 .about-text,
@@ -104,7 +154,6 @@ a {
 @media screen and (min-width: 768px) {
 
     .about {
-        margin-top: -67px;
     }
 
     .container {
@@ -116,11 +165,7 @@ a {
 
     .about-title {
         max-width: 536px;
-        font-weight: 500;
         font-size: 48px;
-        line-height: 1;
-        letter-spacing: -0.02em;
-        color: #1b414b;
         margin-bottom: 50px;
     }
 
@@ -130,27 +175,15 @@ a {
     }
 
     .about-text {
-       font-weight: 400;
         font-size: 23px;
-        line-height: 1;
-        letter-spacing: -0.02em;
-        color: #1b414b;
-        margin-bottom: 20px;
     }
 
     .about-text-1 {
-        font-weight: 400;
         font-size: 13px;
-        line-height: 1.16667;
-        letter-spacing: -0.02em;
-        color: #040306;
-        opacity: 0.4;
     }
 
     .about-img {
         width: calc(100% + 168px);
-        height: auto;
-        border-radius: 0 24px 0 0;
         margin-top: 50px;
         margin-bottom: -275px;
         margin-left: -32px;
@@ -159,29 +192,15 @@ a {
 }
 
 @media screen and (min-width: 1280px) {
-.about {
-        margin-top: -35px;
-        border-radius: 24px 0 0 0;
-        height: 675px;
-        padding: 50px;
-        box-sizing: border-box;
-        overflow: visible;
-    }
-
     .container {
         min-width: 1280px;
         padding: 0 50px;
         margin: 0 auto;
-        overflow: visible;
-        position: relative;
     }
 
     .section-container {
-        background-color: #fbfbfb;
         padding-top: 50px;
         border-radius: 19px;
-        overflow: visible;
-        position: relative;
     }
 
     .text-content {
@@ -191,11 +210,7 @@ a {
 
     .about-title {
         max-width: 537px;
-        font-weight: 500;
         font-size: 48px;
-        line-height: 1;
-        letter-spacing: -0.02em;
-        color: #1b414b;
     }
 
     .section-text {
@@ -212,7 +227,6 @@ a {
 
     .about-img {
         width: calc(100% + 100px);
-        height: auto;
         border-radius: 0 24px 0 0;
         margin-top: 100px;
         margin-bottom: -155px;
@@ -222,7 +236,7 @@ a {
     }
 } 
 
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
     .container {
         min-width: 1340px;
     }
@@ -237,4 +251,4 @@ a {
     }
 
 
-}
+} */
