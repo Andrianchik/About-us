@@ -94,29 +94,29 @@ a {
 }
 
  .about {
-    /* margin-top: -59px; */
     border-radius: 24px 0 0 0;
     height: 675px;
 }
 
- /* .container {
-    padding: 50px;
-    max-width: 375px;
-    min-width: 320px;
-    margin: 0 auto;
-}  */
+.container {
+
+}
 
 .section-container {
+
+}
+
+.background {
     background-color: #fbfbfb;
-    padding-top: 40px; 
-    /* padding-left: 20px;
-    padding-right: 20px; */
+    padding-top: 40px;
     border-radius: 24px;
-    /* padding: 0 20px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 675px;
 }
 
 .text-content {
-
+    
 }
 
 .about-title {
@@ -130,13 +130,7 @@ a {
 }
 
 .section-text {
-    /* display: flex;
-    flex-direction: column;
-    align-items: flex-end; */
-    /* margin-left: 189px;  */
-    /* display: flex; */
-    /* align-items: flex-start; */
-    /* margin-left: 0; */
+
 }
 
 .about-text,
@@ -166,12 +160,7 @@ a {
         width: 100%;
         height: auto;
         border-radius: 0 24px 0 0;
-        margin-top: 40px;
-        width: calc(100% + 40px);
-        margin-left: -20px;
-        margin-right: -20px;
-        margin-bottom: -100px;
-        
+        margin-top: -295px;       
 }
 
 @media screen and (min-width: 768px) {
@@ -179,17 +168,20 @@ a {
     .about {
     }
 
-    .container {
-        min-width: 768px;
+
+    .background {
         padding-top: 50px;
-        padding-right: 136px;
         padding-left: 32px;
     }
 
     .about-title {
         max-width: 536px;
         font-size: 48px;
-        margin-bottom: 50px;
+        margin-right: 136px;
+    }
+
+    .section-text {
+
     }
 
     .about-text,
@@ -206,11 +198,11 @@ a {
     }
 
     .about-img {
-        width: calc(100% + 168px);
+        /* width: calc(100% + 168px); */
         margin-top: 50px;
         margin-bottom: -275px;
-        margin-left: -32px;
-        margin-right: -136px;
+        /* margin-left: -32px;
+        margin-right: -136px; */
     }
 }
 
@@ -240,7 +232,13 @@ a {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        margin-left: 189px;
+        /* margin-left: 189px; */
+    }
+
+    .background {
+        padding-left: 50px;
+        padding-top: 50px;
+        padding-right: 50px;
     }
 
     .about-text,
@@ -249,12 +247,12 @@ a {
     }
 
     .about-img {
-        width: calc(100% + 100px);
+        /* width: calc(100% + 100px); */
         border-radius: 0 24px 0 0;
-        margin-top: 100px;
-        margin-bottom: -155px;
-        margin-left: -50px;
-        margin-right: -50px;
+        /* margin-top: 100px; */
+        /* margin-bottom: -155px; */
+        /* margin-left: -50px;
+        margin-right: -50px; */
 
     }
 } 
