@@ -104,6 +104,7 @@ a {
 
 .section-container {
 
+
 }
 
 .background {
@@ -142,16 +143,14 @@ a {
     font-weight: 400;
     font-size: 18px;
     line-height: 1;
-    letter-spacing: -0.02em;
     color: #1b414b;
-    margin-bottom: 20px;
+    gap: 20px;
 }
 
 .about-text-1 {
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16667;
-    letter-spacing: -0.02em;
     color: #040306;
     opacity: 0.4;
 }
@@ -163,7 +162,7 @@ a {
         border-radius: 0 24px 0 0;
         margin-left: -20px;
         margin-right: -20px;
-        /* margin-top: -295px;        */
+
 }
 
 @media screen and (min-width: 768px) {
@@ -174,30 +173,26 @@ a {
 
     .background {
         padding-top: 50px;
-        padding-left: 32px;
+        padding: 0 32px;
     }
 
     .about-title {
         max-width: 536px;
         font-size: 48px;
-        margin-right: 136px;
     }
 
     .section-text {
-
+    max-width: 389px;
+    padding-right: 136px;
     }
 
     .about-text,
     .about-text-1 {
-       max-width: 389px;
+       /* max-width: 389px; */
     }
 
     .about-text {
-    font-weight: 400;
     font-size: 23px;
-    line-height: 1;
-    letter-spacing: -0.02em;
-    color: #1b414b;
     }
 
     .about-text-1 {
@@ -205,9 +200,9 @@ a {
     }
 
     .about-img {
-        width: calc(100% + 64px);
+        width: calc(100% + 168px);
         margin-left: -32px;
-        margin-right: -32px;
+        margin-right: -136px;
 
     }
 }
